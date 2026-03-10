@@ -26,11 +26,11 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 3. Open it in **Power BI Desktop**.
 
 4. Use the slicers at the top of each page to filter by:
-   - Year
-   - Month
-   - Hotel type
-   - Market segment
-   - Distribution channel
+- Year
+- Month
+- Hotel type
+- Market segment
+- Distribution channel
 
 5. Navigate between the two report pages:
    - **Revenue & Performance Overview**  
