@@ -237,8 +237,9 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 ---
 
 ### 📁 Download the Power BI Dashboard  
-You can download and explore the full interactive dashboard here:
-Hospitality-Revenue-Insight.pbix
+
+[📥 Download the Power BI File](Hospitality-Revenue-Insight.pbix)
+
 
 
 
