@@ -127,7 +127,7 @@ Once imported into Power BI:
 ---
 
 
-6. Data Modeling
+### **6. Data Modeling**
 The model follows a simple star schema:
 
 Fact Table: Bookings / Stays
