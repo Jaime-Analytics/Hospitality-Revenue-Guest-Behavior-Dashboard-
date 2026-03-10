@@ -236,6 +236,12 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ---
 
+### 📁 Download the Power BI Dashboard  
+You can download and explore the full interactive dashboard here:
+ HospitalityDashboard.pbix
+
+---
+
 ## **10. Key Insights**
 
 - Guests tend to book either **very early** or **very close to arrival**.  
