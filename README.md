@@ -93,7 +93,8 @@ Tasks included:
 - validating date ranges and booking statuses  
 
 **Example SQL snippet**
-'''sql
+
+```sql
 SELECT *
 FROM bookings
 WHERE adr < 0
