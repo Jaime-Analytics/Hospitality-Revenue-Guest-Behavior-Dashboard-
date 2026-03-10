@@ -105,10 +105,10 @@ WHERE adr < 0
 
 Once imported into Power BI:
 
--set correct data types
--cleaned column names
--created a Date table
--built Lead Time and LOS buckets
+- set correct data types
+- cleaned column names
+- created a Date table
+- built Lead Time and LOS buckets
 
 ### **Example Power Query (M) snippet**
 
