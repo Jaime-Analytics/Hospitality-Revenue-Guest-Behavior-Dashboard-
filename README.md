@@ -19,7 +19,7 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 ## How to Use This Dashboard
 
-1. Download the Power BI file:
+1. 📁 Download the Power BI file Dasboard:
    
  - **[📥 Download the Power BI File](Hospitality-Revenue-Insight.pbix)**
 
@@ -264,14 +264,6 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ---
 
-### 📁 Download the Power BI Dashboard  
-
-[📥 Download the Power BI File](Hospitality-Revenue-Insight.pbix)
-
-
-
-
----
 
 ## **10. Key Insights**
 
