@@ -94,14 +94,12 @@ Tasks included:
 
 **Example SQL snippet**
 
-```sql ```
+```sql
 SELECT *
 FROM bookings
 WHERE adr < 0
    OR (stays_in_week_nights + stays_in_weekend_nights) = 0;
-   
----
-
+```
 
 ### Power Query Transformations
 Once imported into Power BI:
@@ -113,6 +111,7 @@ Once imported into Power BI:
 
 ### **Example Power Query (M) snippet**
 
+```m
 = Table.AddColumn(Source, "LOS Bucket", each 
     if [LOS] = 1 then "1 night" 
     else if [LOS] = 2 then "2 nights"
@@ -121,7 +120,7 @@ Once imported into Power BI:
     else if [LOS] <= 7 then "5-7 nights"
     else if [LOS] <= 14 then "8-14 nights"
     else "15+ nights")
-
+```
 
 
 
