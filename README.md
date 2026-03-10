@@ -105,10 +105,10 @@ WHERE adr < 0
 
 Once imported into Power BI:
 
-- set correct data types
-- cleaned column names
-- created a Date table
-- built Lead Time and LOS buckets
+- set correct data types  
+- cleaned column names  
+- created a Date table  
+- built Lead Time and LOS buckets  
 
 ### **Example Power Query (M) snippet**
 
@@ -122,6 +122,7 @@ Once imported into Power BI:
     else if [LOS] <= 14 then "8-14 nights"
     else "15+ nights")
 ```
+
 6. Data Modeling
 The model follows a simple star schema:
 
