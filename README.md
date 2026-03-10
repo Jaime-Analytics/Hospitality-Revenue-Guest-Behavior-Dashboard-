@@ -10,8 +10,10 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 ---
 
 ## **📸 Dashboard Preview**
-/page1.png   
-/page2.png
+
+![Page 1](images/page1.png)  
+![Page 2](images/page2.png)
+
 
 
 
