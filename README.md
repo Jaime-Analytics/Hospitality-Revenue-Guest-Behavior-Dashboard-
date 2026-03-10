@@ -1,11 +1,11 @@
 # **Hospitality Revenue & Guest Behavior Dashboard**  
-*A two page Power BI project built using SQL, Power Query, data modeling, and DAX.*
+*A two‑page Power BI project built using SQL, Power Query, data modeling, and DAX. This dashboard connects hotel revenue performance with guest booking behavior to help hospitality teams make informed, data‑driven decisions.*
 
 ---
 
 ## **Project Summary**
 
-A complete hospitality analytics dashboard that connects **revenue performance** with **guest booking behavior**. Built end to end using SQL Server, Power BI, and DAX, this project turns raw hotel booking data into clear, actionable insights for revenue managers, operations teams, and hotel leadership.
+This project transforms raw hotel booking data into a clear, actionable analytics tool. Using SQL Server, Power BI, and DAX, the dashboard highlights revenue trends, guest behavior patterns, and operational insights that matter to hotel leadership, revenue managers, and operations teams.
 
 ---
 
@@ -56,17 +56,17 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 ## **1. Overview**
 
-This project started with a simple idea: take a raw hotel booking dataset and turn it into something a real hotel manager could use, not just a pretty dashboard, but a tool that actually answers business questions.
+This project began with a simple goal: turn a raw hotel booking dataset into something a real hotel manager could use. Not just a dashboard — a decision‑making tool.
 
-I walked through the full BI workflow:
+The workflow includes:
 
 - Exploring and cleaning data in SQL  
 - Shaping it in Power Query  
 - Building a clean data model  
-- Writing DAX that makes sense  
+- Writing meaningful DAX  
 - Designing visuals that tell a story  
 
-The final result is a two‑page Power BI report that shows **how the hotel is performing** and **why it’s performing that way**.
+The final result is a two page Power BI report that shows **how the hotel is performing** and **why it’s performing that way**.
 
 ---
 
@@ -119,7 +119,7 @@ It turns raw booking data into **clear, practical insight**.
 
 ### **SQL Exploration & Cleaning**
 
-I started by loading the dataset into SQL Server to understand its structure and quality.
+The dataset was loaded into SQL Server to assess structure and quality.
 
 Tasks included:
 
@@ -209,9 +209,6 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ## **8. Page 1:  Revenue & Performance Overview**
 
-**Title:** Revenue & Performance Overview  
-**Subtitle:** Revenue trends, booking volume, nights, and cancellation performance.
-
 ### **KPIs**
 
 - Total Bookings  
@@ -237,9 +234,6 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 ---
 
 ## **9. Page 2: Guest Behavior & Booking Patterns**
-
-**Title:** Guest Behavior & Booking Patterns  
-**Subtitle:** Behavioral patterns based on all available booking data.
 
 ### **KPIs**
 
@@ -276,7 +270,26 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ---
 
-## **11. Challenges & Iteration**
+## **11. Key Outcomes**
+
+- A complete end to end BI solution built from raw data to final dashboard.
+- A clean SQL driven data pipeline that ensures accuracy and consistency.
+- A clear, intuitive dashboard that supports real hospitality decision making.
+- A reusable framework for future hotel analytics projects.
+
+---
+
+## **12. Future Enhancements**
+
+- Add forecasting models for revenue and occupancy.
+- Build a dedicated segmentation page for deeper guest profiling.
+- Incorporate weather, events, or competitor pricing data.
+- Add a drill-through pages for hotel managers and revenue teams.
+- Aautomate data refresh using a schedule SQL pipeline.
+
+---
+
+## **13. Challenges & Iteration**
 
 Throughout the build, I refined:
 
@@ -291,7 +304,7 @@ Small, iterative improvements made the dashboard feel polished and professional.
 
 ---
 
-## **12. Repository Structure**
+## **14. Repository Structure**
 
 ```text
 Hospitality-Revenue-Guest-Behavior-Dashboard
@@ -315,10 +328,10 @@ Hospitality-Revenue-Guest-Behavior-Dashboard
 
 ---
 
-## **13. About Me**
+## **15. About Me**
 
 My name is **Jaime Echegaray**, and I come from an operations and property management background where data wasn’t just numbers, it was the difference between guessing and making the right call. Over time, I realized I was spending more energy building spreadsheets, tracking KPIs, and fixing processes than anything else. That curiosity eventually pushed me into Business Intelligence.
 
 I recently completed my **Business Intelligence Data Analysis and Reporting diploma at SAIT**, and since then I’ve been focused on building real, end‑to‑end analytics projects that reflect how data is actually used in the real world. I enjoy the full workflow: exploring data in SQL, shaping it in Power Query, building clean data models, writing DAX that makes sense, and designing dashboards that feel intuitive for non‑technical users.
 
-My goal is simple: **turn raw data into something people can understand and act on.**
+My goal is simple: **Turn raw data into something people can understand and act on.**
