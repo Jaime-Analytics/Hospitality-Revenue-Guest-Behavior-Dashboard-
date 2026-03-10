@@ -43,7 +43,9 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 6. Use the Reset Filters button to return to the default view.
 
-   ## **Data Model & Tech Stack**
+   ---
+
+## **Data Model & Tech Stack**
 
 - **SQL Server Management Studio (SSMS)** – Data cleaning, validarion, and creation of a clean fact table.  
 - **Power Querry (M)** – Direct SQL connection and table import.  
