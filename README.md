@@ -112,7 +112,7 @@ Once imported into Power BI:
 
 ### **Example Power Query (M) snippet**
 
-```m
+```m...
 = Table.AddColumn(Source, "LOS Bucket", each 
     if [LOS] = 1 then "1 night" 
     else if [LOS] = 2 then "2 nights"
