@@ -23,25 +23,25 @@ A complete hospitality analytics dashboard that connects **revenue performance**
    
  - **[📥 Download the Power BI File](Hospitality-Revenue-Insight.pbix)**
 
-3. Open it in **Power BI Desktop**.
+2. Open it in **Power BI Desktop**.
 
-4. Use the slicers at the top of each page to filter by:
+3. Use the slicers at the top of each page to filter by:
 - Year
 - Month
 - Hotel type
 - Market segment
 - Distribution channel
 
-5. Navigate between the two report pages:
+3. Navigate between the two report pages:
 - **Revenue & Performance Overview**  
      View total bookings, nights, revenue, ADR trends, cancellation behavior, and hotel level performance.
 
 - **Guest Behavior & Booking Patterns**  
      Explore lead time, length of stay, booking patterns, and guest behavior metrics.
 
-6. Hover over visuals to see detailed tooltips and breakdowns.
+5. Hover over visuals to see detailed tooltips and breakdowns.
 
-7. Use the Reset Filters button to return to the default view.
+6. Use the Reset Filters button to return to the default view.
 
 ---
 
