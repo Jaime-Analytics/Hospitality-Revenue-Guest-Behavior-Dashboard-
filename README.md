@@ -93,12 +93,33 @@ Tasks included:
 - validating date ranges and booking statuses  
 
 **Example SQL snippet**
-```sql
 SELECT *
 FROM bookings
 WHERE adr < 0
    OR (stays_in_week_nights + stays_in_weekend_nights) = 0;
-
+   
 ---
+
+
+Power Query Transformations
+Once imported into Power BI:
+
+-set correct data types
+-cleaned column names
+-created a Date table
+-built Lead Time and LOS buckets
+
+**Example Power Query (M) snippet**
+
+= Table.AddColumn(Source, "LOS Bucket", each 
+    if [LOS] = 1 then "1 night" 
+    else if [LOS] = 2 then "2 nights"
+    else if [LOS] = 3 then "3 nights"
+    else if [LOS] = 4 then "4 nights"
+    else if [LOS] <= 7 then "5-7 nights"
+    else if [LOS] <= 14 then "8-14 nights"
+    else "15+ nights")
+
+
 
 
