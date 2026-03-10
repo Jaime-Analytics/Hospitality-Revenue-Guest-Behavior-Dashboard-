@@ -21,6 +21,7 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 1. Download the Power BI file:
    - **Hospitality-Revenue-Insight.pbix**
+   - **(Hospitality-Revenue-Insight.pbix)**
 
 2. Open it in **Power BI Desktop**.
 
