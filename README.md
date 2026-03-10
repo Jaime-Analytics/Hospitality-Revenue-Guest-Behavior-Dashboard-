@@ -43,7 +43,7 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 6. Use the Reset Filters button to return to the default view.
 
-   ---
+---
 
 ## **Data Model & Tech Stack**
 
