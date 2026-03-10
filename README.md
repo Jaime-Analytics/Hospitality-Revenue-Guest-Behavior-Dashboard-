@@ -101,6 +101,7 @@ WHERE adr < 0
    OR (stays_in_week_nights + stays_in_weekend_nights) = 0;
 
 
+
 Power Query Transformations
 Once imported into Power BI:
 • 	set correct data types
@@ -191,12 +192,3 @@ Small, iterative improvements made the dashboard feel polished and professional.
 My name is Jaime Echegaray, and I come from an operations and property‑management background where data wasn’t just numbers — it was the difference between guessing and making the right call. Over time, I realized I was spending more energy building spreadsheets, tracking KPIs, and fixing processes than anything else. That curiosity eventually pushed me into Business Intelligence.
 I recently completed my Business Intelligence diploma at SAIT, and since then I’ve been focused on building real, end‑to‑end analytics projects that reflect how data is actually used in the real world. I enjoy the full workflow: exploring data in SQL, shaping it in Power Query, building clean data models, writing DAX that makes sense, and designing dashboards that feel intuitive for non‑technical users.
 My goal is simple: turn raw data into something people can understand and act on.
-
-
-
-
-
-
-
-  
-
