@@ -94,7 +94,7 @@ Tasks included:
 
 **Example SQL snippet**
 
-```sql
+```sql ```
 SELECT *
 FROM bookings
 WHERE adr < 0
@@ -103,7 +103,7 @@ WHERE adr < 0
 ---
 
 
-Power Query Transformations
+### Power Query Transformations
 Once imported into Power BI:
 
 -set correct data types
@@ -111,7 +111,7 @@ Once imported into Power BI:
 -created a Date table
 -built Lead Time and LOS buckets
 
-**Example Power Query (M) snippet**
+### **Example Power Query (M) snippet**
 
 = Table.AddColumn(Source, "LOS Bucket", each 
     if [LOS] = 1 then "1 night" 
