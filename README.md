@@ -13,8 +13,8 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 > Replace these with your actual images after uploading them into the `/images` folder.
 
-![Page 1](images/page1.png)  
-![Page 2](images/page2.png)
+(images/page1.png)  
+
 
 ---
 
