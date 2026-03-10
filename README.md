@@ -33,14 +33,14 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 4. Navigate between the two report pages:
    - **Revenue & Performance Overview**  
-     View total bookings, nights, revenue, ADR trends, cancellation behavior, and hotel-level performance.
+     View total bookings, nights, revenue, ADR trends, cancellation behavior, and hotel level performance.
 
    - **Guest Behavior & Booking Patterns**  
      Explore lead time, length of stay, booking patterns, and guest behavior metrics.
 
 5. Hover over visuals to see detailed tooltips and breakdowns.
 
-6. Use the Reset Filters button (if included) to return to the default view.
+6. Use the Reset Filters button to return to the default view.
 
 ---
 
