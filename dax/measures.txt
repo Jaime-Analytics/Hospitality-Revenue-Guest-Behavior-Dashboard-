@@ -1,0 +1,17 @@
+===========================================
+DAX MEASURES
+Author: Jaime Echegaray
+Purpose: Core calculations for Hospitality Dashboard
+===========================================
+
+Total Bookings = COUNTROWS(Fact_Bookings)
+Total Nights = SUM(vw_Revenue[total_nights])
+Total Revenue = SUM(vw_Revenue[revenue])
+ADR Measure = AVERAGE(Fact_Bookings[adr])
+Cancellation Rate = 
+DIVIDE(
+    SUM(Fact_Bookings[is_canceled]),
+    COUNTROWS(Fact_Bookings)
+)
+Avg Lead Time = AVERAGE(Fact_Bookings[lead_time])
+Avg LOS = AVERAGE(Fact_Bookings[Length of Stay])
