@@ -11,8 +11,6 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 ## **📸 Dashboard Preview**
 
-> Replace these with your actual images after uploading them into the `/images` folder.
-
 (images)  
 
 
