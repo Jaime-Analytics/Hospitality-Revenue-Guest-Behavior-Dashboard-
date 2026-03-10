@@ -99,5 +99,7 @@ SELECT *
 FROM bookings
 WHERE adr < 0
    OR (stays_in_week_nights + stays_in_weekend_nights) = 0;
-
 ---
+
+
+After 
