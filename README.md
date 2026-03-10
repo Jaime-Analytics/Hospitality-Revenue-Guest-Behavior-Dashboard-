@@ -122,7 +122,6 @@ Once imported into Power BI:
     else if [LOS] <= 14 then "8-14 nights"
     else "15+ nights")
 ```
----
 6. Data Modeling
 The model follows a simple star schema:
 
