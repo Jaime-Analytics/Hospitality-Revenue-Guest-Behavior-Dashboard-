@@ -33,10 +33,10 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 - Distribution channel
 
 5. Navigate between the two report pages:
-   - **Revenue & Performance Overview**  
+- **Revenue & Performance Overview**  
      View total bookings, nights, revenue, ADR trends, cancellation behavior, and hotel level performance.
 
-   - **Guest Behavior & Booking Patterns**  
+- **Guest Behavior & Booking Patterns**  
      Explore lead time, length of stay, booking patterns, and guest behavior metrics.
 
 6. Hover over visuals to see detailed tooltips and breakdowns.
