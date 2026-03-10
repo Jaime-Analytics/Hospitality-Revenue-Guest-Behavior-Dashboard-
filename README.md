@@ -1,11 +1,11 @@
 # **Hospitality Revenue & Guest Behavior Dashboard**  
-*A two‑page Power BI project built using SQL, Power Query, data modeling, and DAX.*
+*A two page Power BI project built using SQL, Power Query, data modeling, and DAX.*
 
 ---
 
 ## **Project Summary**
 
-A complete hospitality analytics dashboard that connects **revenue performance** with **guest booking behavior**. Built end‑to‑end using SQL Server, Power BI, and DAX, this project turns raw hotel booking data into clear, actionable insights for revenue managers, operations teams, and hotel leadership.
+A complete hospitality analytics dashboard that connects **revenue performance** with **guest booking behavior**. Built end to end using SQL Server, Power BI, and DAX, this project turns raw hotel booking data into clear, actionable insights for revenue managers, operations teams, and hotel leadership.
 
 ---
 
@@ -28,15 +28,15 @@ A complete hospitality analytics dashboard that connects **revenue performance**
 
 ## **1. Overview**
 
-This project started with a simple idea: take a raw hotel booking dataset and turn it into something a real hotel manager could use — not just a pretty dashboard, but a tool that actually answers business questions.
+This project started with a simple idea: take a raw hotel booking dataset and turn it into something a real hotel manager could use, not just a pretty dashboard, but a tool that actually answers business questions.
 
 I walked through the full BI workflow:
 
-- exploring and cleaning data in SQL  
-- shaping it in Power Query  
-- building a clean data model  
-- writing DAX that makes sense  
-- designing visuals that tell a story  
+- Exploring and cleaning data in SQL  
+- Shaping it in Power Query  
+- Building a clean data model  
+- Writing DAX that makes sense  
+- Designing visuals that tell a story  
 
 The final result is a two‑page Power BI report that shows **how the hotel is performing** and **why it’s performing that way**.
 
@@ -54,11 +54,11 @@ Lead time, length of stay, segment behavior, channel cancellations.
 
 These insights support decisions around:
 
-- pricing  
-- forecasting  
-- staffing  
-- overbooking strategy  
-- revenue optimization  
+- Pricing  
+- Forecasting  
+- Staffing  
+- Overbooking strategy  
+- Revenue optimization  
 
 ---
 
@@ -66,13 +66,13 @@ These insights support decisions around:
 
 This dashboard helps leadership:
 
-- understand revenue trends and seasonality  
-- identify high‑value and low‑value segments  
-- spot cancellation risk by channel  
-- see how far in advance guests book  
-- understand how long guests stay  
-- compare performance between hotels  
-- improve forecasting accuracy  
+- Understand revenue trends and seasonality  
+- Identify high value and low value segments  
+- Spot cancellation risk by channel  
+- See how far in advance guests book  
+- Understand how long guests stay  
+- Compare performance between hotels  
+- Improve forecasting accuracy  
 
 It turns raw booking data into **clear, practical insight**.
 
@@ -95,10 +95,10 @@ I started by loading the dataset into SQL Server to understand its structure and
 
 Tasks included:
 
-- checking for missing or inconsistent values  
-- standardizing text fields  
-- removing invalid rows (negative ADR, zero nights)  
-- validating date ranges and booking statuses  
+- Checking for missing or inconsistent values  
+- Standardizing text fields  
+- Removing invalid rows (negative ADR, zero nights)  
+- Validating date ranges and booking statuses  
 
 **Example SQL snippet**
 
@@ -113,10 +113,10 @@ WHERE adr < 0
 
 Once imported into Power BI:
 
-- set correct data types  
-- cleaned column names  
-- created a Date table  
-- built Lead Time and LOS buckets
+- Set correct data types  
+- Cleaned column names  
+- Created a Date table  
+- Built Lead Time and LOS buckets
   
 ### **Example Power Query (M) snippet**
 
@@ -179,7 +179,7 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ---
 
-## **8. Page 1 — Revenue & Performance Overview**
+## **8. Page 1:  Revenue & Performance Overview**
 
 **Title:** Revenue & Performance Overview  
 **Subtitle:** Revenue trends, booking volume, nights, and cancellation performance.
@@ -208,7 +208,7 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 ---
 
-## **9. Page 2 — Guest Behavior & Booking Patterns**
+## **9. Page 2: Guest Behavior & Booking Patterns**
 
 **Title:** Guest Behavior & Booking Patterns  
 **Subtitle:** Behavioral patterns based on all available booking data.
@@ -260,12 +260,12 @@ Avg LOS = DIVIDE([Total Nights], [Total Bookings])
 
 Throughout the build, I refined:
 
-- sorting issues  
+- Sorting issues  
 - DAX logic  
-- category labels  
-- visual titles  
-- color consistency  
-- layout spacing  
+- Category labels  
+- Visual titles  
+- Color consistency  
+- Layout spacing  
 
 Small, iterative improvements made the dashboard feel polished and professional.
 
@@ -297,8 +297,8 @@ Hospitality-Revenue-Guest-Behavior-Dashboard
 
 ## **13. About Me**
 
-My name is **Jaime Echegaray**, and I come from an operations and property‑management background where data wasn’t just numbers — it was the difference between guessing and making the right call. Over time, I realized I was spending more energy building spreadsheets, tracking KPIs, and fixing processes than anything else. That curiosity eventually pushed me into Business Intelligence.
+My name is **Jaime Echegaray**, and I come from an operations and property management background where data wasn’t just numbers, it was the difference between guessing and making the right call. Over time, I realized I was spending more energy building spreadsheets, tracking KPIs, and fixing processes than anything else. That curiosity eventually pushed me into Business Intelligence.
 
-I recently completed my **Business Intelligence diploma at SAIT**, and since then I’ve been focused on building real, end‑to‑end analytics projects that reflect how data is actually used in the real world. I enjoy the full workflow: exploring data in SQL, shaping it in Power Query, building clean data models, writing DAX that makes sense, and designing dashboards that feel intuitive for non‑technical users.
+I recently completed my **Business Intelligence Data Analysis and Reporting diploma at SAIT**, and since then I’ve been focused on building real, end‑to‑end analytics projects that reflect how data is actually used in the real world. I enjoy the full workflow: exploring data in SQL, shaping it in Power Query, building clean data models, writing DAX that makes sense, and designing dashboards that feel intuitive for non‑technical users.
 
 My goal is simple: **turn raw data into something people can understand and act on.**
