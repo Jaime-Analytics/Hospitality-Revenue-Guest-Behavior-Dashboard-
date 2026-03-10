@@ -101,7 +101,8 @@ WHERE adr < 0
    OR (stays_in_week_nights + stays_in_weekend_nights) = 0;
 ```
 
-### Power Query Transformations
+### **Power Query Transformations**
+
 Once imported into Power BI:
 
 -set correct data types
@@ -121,6 +122,150 @@ Once imported into Power BI:
     else if [LOS] <= 14 then "8-14 nights"
     else "15+ nights")
 ```
+---
+6. Data Modeling
+The model follows a simple star schema:
+
+Fact Table: Bookings / Stays
+
+Dimensions: Date, Market Segment, Distribution Channel, Hotel
+
+Relationships were created on arrival date, segment, channel, and hotel.
+The Date table was marked as the official date table.
+
+7. Core DAX Measures
+Total Bookings = COUNTROWS('FactBookings')
+Total Nights = SUM('FactBookings'[TotalNights])
+Total Revenue = SUM('FactBookings'[Revenue])
+ADR = DIVIDE([Total Revenue], [Total Nights])
+Cancellation Rate = DIVIDE([Cancelled Bookings], [Total Bookings])
+Avg Lead Time = AVERAGE('FactBookings'[LeadTime])
+Avg LOS = DIVIDE([Total Nights], [Total Bookings])
+
+---
+
+8. Page 1 — Revenue & Performance Overview
+Title: Revenue & Performance Overview
+Subtitle: Revenue trends, booking volume, nights, and cancellation performance.
+
+KPIs
+Total Bookings
+
+Total Nights
+
+Total Revenue
+
+Cancellation Rate
+
+ADR
+
+Visuals
+ADR Trend
+
+Cancellation Rate by Segment
+
+Nights by Month
+
+Revenue by Hotel
+
+How to Read This Page
+ADR Trend shows pricing performance and seasonality
+
+Cancellation by Segment highlights revenue leakage
+
+Nights by Month reveals demand patterns
+
+Revenue by Hotel compares City vs Resort performance
+
+9. Page 2 — Guest Behavior & Booking Patterns
+Title: Guest Behavior & Booking Patterns
+Subtitle: Behavioral patterns based on all available booking data.
+
+KPIs
+Avg Lead Time
+
+ADR
+
+Avg LOS
+
+Cancellation Rate
+
+Visuals
+Avg Lead Time Distribution
+
+Length of Stay Distribution
+
+ADR by Market Segment
+
+Cancellation Rate by Channel
+
+How to Read This Page
+Lead Time shows predictability and booking behavior
+
+LOS distribution reveals core stay patterns
+
+ADR by Segment highlights high‑value segments
+
+Cancellation by Channel shows where risk comes from
+
+10. Key Insights
+Guests tend to book either very early or very close to arrival.
+
+Most stays are 2–3 nights, typical for leisure hotels.
+
+Online TA and Direct segments deliver the highest ADR.
+
+Cancellation risk is highest in TA/TO and Undefined channels.
+
+Revenue peaks mid‑year, showing clear seasonality.
+
+The City Hotel outperforms the Resort Hotel in total revenue.
+
+11. Challenges & Iteration
+Throughout the build, I refined:
+
+sorting issues
+
+DAX logic
+
+category labels
+
+visual titles
+
+color consistency
+
+layout spacing
+
+Small, iterative improvements made the dashboard feel polished and professional.
+
+---
+
+12. Repository Structure
+    Hospitality-Revenue-Guest-Behavior-Dashboard
+│
+├── README.md
+├── HospitalityDashboard.pbix
+│
+├── /images
+│     ├── page1.png
+│     └── page2.png
+│
+├── /sql
+│     └── data_cleaning.sql
+│
+├── /dax
+│     └── measures.txt
+│
+└── /powerquery
+      └── transformations.txt
+---
+
+13. About Me
+My name is Jaime Echegaray, and I come from an operations and property‑management background where data wasn’t just numbers — it was the difference between guessing and making the right call. Over time, I realized I was spending more energy building spreadsheets, tracking KPIs, and fixing processes than anything else. That curiosity eventually pushed me into Business Intelligence.
+
+I recently completed my Business Intelligence diploma at SAIT, and since then I’ve been focused on building real, end‑to‑end analytics projects that reflect how data is actually used in the real world. I enjoy the full workflow: exploring data in SQL, shaping it in Power Query, building clean data models, writing DAX that makes sense, and designing dashboards that feel intuitive for non‑technical users.
+
+My goal is simple: turn raw data into something people can understand and act on.
 
 
 
